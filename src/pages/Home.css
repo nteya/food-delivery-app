@@ -1,0 +1,109 @@
+/* src/pages/Home.css */
+
+.home-page {
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensure no overflow from the image */
+}
+
+.hero-section {
+    background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Darker overlay for better text contrast */
+    z-index: 1; /* Place behind content */
+}
+
+.hero-content {
+    z-index: 2; /* Ensure the content is above the overlay */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Soft shadow for a floating effect */
+    max-width: 80%;
+    margin: 0 auto;
+    backdrop-filter: blur(10px); /* Background blur effect for a modern touch */
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Enhanced text shadow for readability */
+    letter-spacing: 2px; /* Increase spacing for a more futuristic look */
+}
+
+.hero-content p {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Keep the text readable */
+}
+
+.cta-button {
+    background: linear-gradient(135deg, #00bcd4, #2196f3); /* Gradient for a modern look */
+    color: #111111; /* White text */
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
+}
+
+.cta-button:hover {
+    background: linear-gradient(135deg, #03a9f4, #1e88e5); /* Darker gradient on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.about-section {
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #000000, #070707); /* Gradient background */
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow at the top */
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+}
+
+.about-section p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto; /* Center the text */
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+/* src/pages/Menu.css */
+
+.menu-section {
+    padding: 60px 20px;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.menu-category {
+    margin-bottom: 60px;
+}
+
+.menu-category h3 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.menu-items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #000000;
+}
+
+.menu-item h4 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 20px 0 10px;
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-items-list {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+}
+
+
+
